@@ -74,6 +74,18 @@
     position: absolute;
     display: block;
   }
+  h3{
+    color: #fff;
+  }
+  .label1{
+    color: #fff;
+    margin-bottom: 200px;
+    
+  }
+  label{
+    color: #fff;
+
+  }
   
   @keyframes btn-anim1 {
     0% {

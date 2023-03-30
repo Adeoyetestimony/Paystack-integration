@@ -30,8 +30,8 @@ const FormControl = () => {
 <div class="login-box">
 <h3>Paystack Integration</h3>
  <form onSubmit={handleSubmit}>
+     <label className='label1'>Email</label>
    <div class="user-box">
-     {/* <label>Email</label> */}
      <input type="email" required name='email' onChange={handleChange} />
    </div>
      <label>Amout</label>
