@@ -1,6 +1,6 @@
 export const handlePayment = (email, amount) => {
     
-    const handler = PaystackPop.setup({
+    const handler = window.PaystackPop.setup({
         key: 'pk_live_b90606fc26351bc9685a4616f42eb43c737f7ee7',
         email,
         amount: amount * 100,
